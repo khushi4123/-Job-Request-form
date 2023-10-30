@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1> IT Hardware Request Form</h1>
+        </header>
+        <form action="server.php">
+            <div class="cantrol">
+                <section class="first">
+                    <div class="form_cantrol">
+                        <label>First Name</label>
+                        <input type="text" id="125" name="Fanme" placeholder="First Name">
+                    </div>
+                    <div class="form_cantrol1">
+                        <label>Last Name</label><br>
+                        <input type="text" id="453" name="Lname" placeholder="Last Name">
+                    </div>
+                </section>
+
+                <section class="first">
+                    <div class="form_cantrol">
+                        <label>Department</label>
+                        <select name="job role" id="152" placeholder="Select Department">
+                            <option value=" ">select Department</option>
+                            <option value="Asset Management">Asset Management</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Risk Management">Risk Management</option>
+                            <option value="Sales">Sales</option>
+                            <option value="Operation">Operation </option>
+                            <option value="Humam Resource">Human Resource</option>
+                        </select>
+                    </div>
+
+                    <div class="form_cantrol2">
+                        <label>Email</label><br>
+                        <input type="email" id="152" name="email" placeholder="Email">
+                    </div>
+                </section>
+
+
+
+
+                <div class="form_cantrol3">
+                    <label>Employee Location</label><br>
+
+                    <select name="location" class="employee">
+
+                        <option value=" ">Select Location</option>
+                        <option value="koregaon">Koregaon</option>
+                        <option value="pimle saudagar">Pimple Saudagar</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Hinjwadi">Hinjwadi</option>
+                        <option value="dehu">Dehu</option>
+                    </select>
+
+
+                </div>
+
+
+                <section class="third">
+                    <div class="form_cantrol">
+                        <label>Desired Completion Date</label>
+                        <input type="date" id="422" name="date">
+                    </div>
+                    <div class="form_cantrol4">
+                        <label>Upload file</label>
+                        <input type="file" id="485" name="file">
+                    </div>
+                </section>
+
+
+                <!--<div class="form_cantrol5">
+
+                    <label>Which Hardwares item you need</label><br>
+
+
+                    <input type="checkbox" id="iteam" name="laptop">
+                    <label>Laptop</label>
+
+                    <input type="checkbox" id="785" name="Phone">
+                    <label>Phone</label>
+
+                    <input type="checkbox" id="485" name="Laptop carry case">
+                    <label>Laptop carry case</label>
+
+                    <input type="checkbox" id="785" name="Tablet">
+                    <label>Tablet</label>
+
+                </div>-->
+                <div class="form_cantrol5">
+                    <label>Which Hardware items Do you Need?</label><br>
+                    <select class="device" namr="hdevices">
+                        <option value=" ">Hardware Devices</option>
+                        <option value="Laptop">Laptop</option>
+                        <option value="Phone">Phone</option>
+                        <option value="Tablet">Tablet</option>
+                        <option value="docking station">Docking Station</option>
+                        <option value="Bluetooth mouse">Bluetooth Mouse</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button class="button" value="submit">Submit</button>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

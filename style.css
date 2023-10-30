@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkgray;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 55%;
+    height: fit-content;
+    margin: auto;
+    padding: 35px;
+    background-color: antiquewhite;
+}
+
+
+
+.cantrol {
+    padding: 30px;
+
+    gap: 20px;
+}
+
+.form_cantrol {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select {
+    margin-top: 10px;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 320px;
+    transition: 0.3s ease-in-out;
+}
+
+input:hover {
+    border: 3px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+select:hover {
+    border: 3px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_cantrol1 {
+    Margin-top: 10px;
+}
+
+label {
+
+    font-size: 20px;
+}
+
+::placeholder {
+    font-size: 18px;
+}
+
+select {
+    font-size: 20px;
+    width: 370px;
+    padding: 21px;
+}
+
+.form_cantrol2 {
+    margin-top: 10px;
+}
+
+.employee {
+    width: 770px;
+}
+
+.form_cantrol3 {
+    margin-left: 10px;
+}
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.form_cantrol4 {
+    margin-top: 8px;
+    margin-left: 14px;
+
+
+}
+
+button {
+    padding: 10px;
+
+    background-color: palevioletred;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 15%;
+}
+
+button:hover {
+    background-color: silver;
+}
+
+.button {
+    margin-left: 350px;
+}
+
+.device {
+    Width: 780px;
+}
+
+.form_cantrol5 {
+    margin-left: 5px;
+    margin-top: 15px;
+}
